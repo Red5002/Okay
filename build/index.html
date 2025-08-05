@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en" class="sm:scroll-smooth">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Okay</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+    <header class="bg-black text-white sticky top-0 z-10">
+      <section class="max-w-screen-lg mx-auto p-4 flex justify-between items-center">
+        <h1 class="text-3xl font-medium">
+          <a href="#hero">Okay</a>
+        </h1>
+        <div>
+          <button id="hamburger-button" class="text-3xl md:hidden focus:outline-none cursor-pointer relative w-8 h-8">
+            <div
+              class="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 transition-all duration-500 before:content-[''] before:bg-white before:w-8 before:h-1 before:rounded before:absolute before:transition-all before:duration-500 before:-translate-x-4 before:-translate-y-3 after:content-[''] after:bg-white after:w-8 after:h-1 after:rounded after:absolute after:transition-all after:duration-500 after:-translate-x-4 after:translate-y-3">
+            </div>
+          </button>
+          <nav class="hidden md:block space-x-8 text-xl" aria-label="main">
+            <a href="#about" class="hover:opacity-90">About</a>
+            <a href="#links" class="hover:opacity-90">Links</a>
+            <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
+            <a href="#bio" class="hover:opacity-90">Bio</a>
+            <a href="#footer" class="hover:opacity-90">legal</a>
+          </nav>
+        </div>
+      </section>
+      <section id="mobile-menu"
+        class="absolute top-68 bg-black w-full text-5xl flex-col justify-center origin-top animate-open-menu hidden">
+        <nav class="flex flex-col min-h-screen items-center py-6" aria-label="mobile">
+          <a href="#hero" class="w-full text-center py-4 hover:opacity-40">Home</a>
+          <a href="#about" class="w-full text-center py-4 hover:opacity-40">About</a>
+          <a href="#links" class="w-full text-center py-4 hover:opacity-40">Links</a>
+          <a href="#testimonials" class="w-full text-center py-4 hover:opacity-40">Testimonials</a>
+          <a href="#bio" class="w-full text-center py-4 hover:opacity-40">Bio</a>
+          <a href="#footer" class="w-full text-center py-4 hover:opacity-40">Legal</a>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section id="hero"
+        class="flex flex-row justify-end sm:flex-row p-6 items-end gap-8 mb-12 scroll-mt-40 widescreen:section-min-height medscreen:section-min-height xtramedscreen:section-min-height tallscreen:section-min-height bg-[url('../assets/icons/hero-bg.jpg')] bg-cover bg-no-repeat bg-top">
+        <article class="sm:w-1/2 flex flex-col items-start">
+          <h2
+            class="max-w-md text-5xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white dark:lg:text-white">
+            <span class="">Okay</span>
+          </h2>
+          <p class="max-w-md text-2xl mt-4 font-semibold  text-left text-slate-700 dark:text-white dark:lg:text-white">
+            Flexy J
+          </p>
+          <p
+            class="max-w-md font-bold mt-4 text-left medscreen:text-white xtramedscreen:text-white text-slate-700 dark:text-black dark:lg:text-white">
+            "Life punishes the timid and rewards the bold"
+          </p>
+        </article>
+        <div class="w-1/2 flex flex-col justify-center text-black dark:text-black dark:lg:text-white">
+          <h3 class="text-end font-bold mb-1 sm:text-center">Listen Now</h3>
+          <div class="flex flex-col items-end sm:flex-row sm:justify-evenly">
+            <div class="w-10 h-10 p-2 mb-2 rounded-full bg-white flex justify-center items-center">
+              <a href="https://open.spotify.com/track/0aRjRSfFuFoME4LZhfwd67?si=iGCVSHkBSPWi18j4K-ysCA">
+                <img class="w-full h-full" src="assets/icons/spotify.svg" alt="" />
+              </a>
+            </div>
+            <div class="w-10 h-10 p-2 mb-2 rounded-full bg-white flex justify-center items-center">
+              <a href="https://music.apple.com/ng/album/okay/1816809407?i=1816809408">
+                <img class="w-full h-full" src="assets/icons/applemusic.svg" alt="" />
+              </a>
+            </div>
+            <div class="w-10 h-10 p-2 rounded-full bg-white flex justify-center items-center">
+              <a href="https://link.deezer.com/s/30sfHRdHxvYU3fBpdKpSc">
+                <img class="w-full h-full" src="assets/icons/deezer-brands.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about"
+        class="p-6 my-12 scroll-mt-20 flex flex-col gap-3 justify-center items-center widescreen:section-min-height tallscreen:section-min-height">
+        <h2 class="text-4xl font-bold text-center sm:text-5xl mb-20 text-slate-900 dark:text-white">
+          About Song
+        </h2>
+        <p class="text-[1rem] sm:text-2xl">
+          My name is Ijoko Ode Jairus, but the world knows me as Flexy J, aka
+          The Rainbow. I’m not just a music artist—I’m the lyrical poem that
+          expresses the thoughts and feelings of a writer. My voice is the sound
+          of survival, my rhythm is the heartbeat of resilience, and my message
+          is simple: It’s OKAY .
+        </p>
+        <p class="text-[1rem] sm:text-2xl">
+          I wrote “OKAY” from the deepest part of my soul. This song was born in
+          the fire of loss—when I lost my father, my life changed forever.
+          Everything fell apart. Feeding became a struggle. Shelter became a
+          dream. My family had no place to truly call home.
+        </p>
+        <p class="text-[1rem] sm:text-2xl">
+          I was too young to have the conversations I needed to have with my
+          dad, and I grew up with that ache. But I turned that pain into power.
+          I became the man I needed, and I used my voice to speak what so many
+          are feeling but afraid to say.
+        </p>
+        <p class="text-[1rem] sm:text-2xl">
+          I’ve lived the street life—I sold pure water in the streets of Lagos.
+          I carried loads in the market. I did Okada business. I hustled, not
+          because I wanted to, but because I had to. I did all of that just to
+          keep the spirit alive.
+        </p>
+        <p class="text-[1rem] sm:text-2xl">
+          People will call you names. In Yoruba, they’ll say Omoale, Omoase,
+          Oloriburuku. But I’ve learned something from the ocean: to rejoice
+          even when you’re drowning. Because the storm will pass.
+        </p>
+        <p class="text-[1rem] sm:text-2xl">
+          “OKAY” is not just a song. It’s a lifeline. It’s my message to the
+          world—to the ones who are struggling, to the ones who feel forgotten,
+          to the ones who cry in silence: Don’t give up. Keep pushing. It’s OK
+          to not be OK. Your story isn’t over. The sky is not your limit; it’s
+          your starting point.
+        </p>
+        <p class="text-[1rem] sm:text-2xl">
+          I am ODEE, I am the living proof that pain births purpose, and I’m
+          using my voice to light up dark paths. This is more than music. This
+          is a movement.
+        </p>
+        <p class="text-[1rem] sm:text-2xl">
+          "Dedicated to the guiding light of my late father (Late Mr Ijoko) and the enduring strength of my mother (Mrs
+          Ijoko) - one watches from above, the other walks beside me"
+        </p>
+        <p class="text-center font-bold">Flexy J, The Rainbow.</p>
+
+        <p class="italic mt-10 text-center font-bold">
+          "Life punishes the timid and rewards the bold"
+        </p>
+      </section>
+      <hr class="mx-auto bg-black dark:bg-white" />
+      <section id="links"
+        class="p-6 my-12 scroll-mt-20 flex flex-col justify-center items-center gap-5 widescreen:section-min-height tallscreen:section-min-height medscreen:section-min-height xtramedscreen:section-min-height">
+        <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+          Stream Song
+        </h2>
+        <div class="flex flex-row flex-wrap gap-5 justify-center items-center">
+          <div class="p-2 bg-white rounded-2xl hover:opacity-60 transition-all duration-500">
+            <a href="https://music.apple.com/ng/album/okay/1816809407?i=1816809408">
+              <img class="w-40 h-20" src="assets/icons/applemusic.svg" alt="" />
+              <p class="text-sm text-black text-center font-bold mt-1">
+                Apple Music
+              </p>
+            </a>
+          </div>
+          <div class="p-2 bg-white rounded-2xl hover:opacity-60 transition-all duration-500">
+            <a href="https://open.spotify.com/track/0aRjRSfFuFoME4LZhfwd67?si=iGCVSHkBSPWi18j4K-ysCA">
+              <img class="w-40 h-20" src="assets/icons/spotify.svg" alt="" />
+              <p class="text-sm text-black text-center font-bold mt-1">
+                Spotify
+              </p>
+            </a>
+          </div>
+          <div class="p-2 bg-white rounded-2xl hover:opacity-60 transition-all duration-500">
+            <a href="https://link.deezer.com/s/30sfHRdHxvYU3fBpdKpSc">
+              <img class="w-40 h-20" src="assets/icons/deezer-brands.svg" alt="" />
+              <p class="text-sm text-black text-center font-bold mt-1">
+                Deezer
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <hr class="mx-auto bg-black dark:bg-white" />
+      <section id="testimonials"
+        class="p-6 my-12 scroll-mt-12 widescreen:section-min-height tallscreen:section-min-height">
+        <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+          Testimonials
+        </h2>
+        <figure class="my-12 relative">
+          <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl">
+            <p
+              class="text-xl sm:text-2xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl sm:before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:bottom-0 after:right-0 after:text-9xl sm:after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-1 after:-translate-y-1">
+              The adlibs is lovely for real,
+              the melody is well placed and the flow is in touch this more than
+              dope ajeh
+            </p>
+          </blockquote>
+          <figcaption class="italic text-xl sm:text-2xl text-right text-slate-500 dark:text-slate-400">
+            &#8212; Omotolani
+          </figcaption>
+        </figure>
+        <figure class="my-12 relative">
+          <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl">
+            <p
+              class="text-xl sm:text-2xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl sm:before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:bottom-0 after:right-0 after:text-9xl sm:after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-1 after:-translate-y-1">
+              Anyone who listens to this would picture the story with the lyrics, The sharp intro and the flows is just
+              bam!!
+            </p>
+          </blockquote>
+          <figcaption class="italic text-xl sm:text-2xl text-right text-slate-500 dark:text-slate-400">
+            &#8212; Adedotun Makinde
+          </figcaption>
+        </figure>
+        <figure class="my-12 relative">
+          <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl">
+            <p
+              class="text-xl sm:text-2xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl sm:before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:bottom-0 after:right-0 after:text-9xl sm:after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-1 after:-translate-y-1">
+              Omo that song go far, E too dey emotional
+            </p>
+          </blockquote>
+          <figcaption class="italic text-xl sm:text-2xl text-right text-slate-500 dark:text-slate-400">
+            &#8212; Macel
+          </figcaption>
+        </figure>
+        <figure class="my-12 relative">
+          <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl">
+            <p
+              class="text-xl sm:text-2xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl sm:before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:bottom-0 after:right-0 after:text-9xl sm:after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-1 after:-translate-y-1">
+              Nice starting bro,
+              Nice arrangements,
+              Nice intro,
+              Nice backup voice.
+            </p>
+          </blockquote>
+          <figcaption class="italic text-xl sm:text-2xl text-right text-slate-500 dark:text-slate-400">
+            &#8212; Marvin Graphics
+          </figcaption>
+        </figure>
+
+
+      </section>
+      <hr class="mx-auto bg-black dark:bg-white" />
+      <section id="bio"
+        class="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height medscreen:section-min-height xtramedscreen:section-min-height">
+        <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+          About Me
+        </h2>
+        <div class="flex flex-col sm:flex-row gap-8 justify-center items-center mt-16">
+          <div class="h-40 w-40 rounded-full bg-[url('../assets/icons/profile.jpg')] bg-cover bg-center"></div>
+
+          <div>
+            <h2 class="text-2xl text-center font-bold sm:text-start">
+              Flexy J
+            </h2>
+            <p class="text-center sm:text-start">
+              <span class="text-1xl">Meet Flexy J aka The Rainbow | Muscian | Beat Maker | Producer</span><br />
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-row flex-wrap gap-6 justify-center items-center mt-16">
+          <div class="p-1 rounded-full bg-white">
+            <a href="https://x.com/flexyodee?s=21">
+              <img class="w-8 h-8" src="assets/icons/x.svg" alt="" />
+            </a>
+          </div>
+          <div class="p-1 rounded-full bg-white">
+            <a
+              href="https://www.tiktok.com/@flexyjairus?_r=1&_d=ejkh9kbb92ak43&sec_uid=MS4wLjABAAAAWpNK4VKjv4_5VuYoQKLJBNQQ6Y1rIFK0MuBlaP0ntDOYcct_bS_q0s91qucS8T91&share_author_id=7042980325241455622&sharer_language=en&source=h5_m&u_code=dm8i9j8c005d0l&ug_btm=b8727,b0&social_share_type=4&utm_source=copy&sec_user_id=MS4wLjABAAAAWpNK4VKjv4_5VuYoQKLJBNQQ6Y1rIFK0MuBlaP0ntDOYcct_bS_q0s91qucS8T91&tt_from=copy&utm_medium=ios&utm_campaign=client_share&enable_checksum=1&user_id=7042980325241455622&share_link_id=2351102A-CCFF-47DF-870F-62181B12848B&share_app_id=1233">
+              <img class="w-8 h-8" src="assets/icons/tiktok.svg" alt="" />
+            </a>
+          </div>
+          <div class="p-1 rounded-full bg-white">
+            <a href="https://www.instagram.com/flexyjairus?igsh=Z21vN3l5eGVyZGRt&utm_source=qr">
+              <img class="w-8 h-8" src="assets/icons/instagram.svg" alt="" />
+            </a>
+          </div>
+          <div class="p-1 rounded-full bg-white">
+            <a href="https://www.facebook.com/share/1AkQcjycvV/?mibextid=wwXIfr">
+              <img class="w-8 h-8" src="assets/icons/facebook.svg" alt="" />
+            </a>
+          </div>
+          <div class="p-1 rounded-full bg-white">
+            <a href="https://youtube.com/@flexyjairus?si=JH83W5045fcsIgzg">
+              <img class="w-8 h-8" src="assets/icons/youtube.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-black text-white text-xl" id="footer">
+      <section class="max-w-4xl mx-auto p-4 flex flex-row-reverse sm:flex-row justify-between sm:items-start">
+        <div class="sm:flex flex-col gap-6 justify-center items-center hidden">
+          <div class="p-1 rounded-full bg-white">
+            <a href="https://x.com/flexyodee?s=21">
+              <img class="w-8 h-8" src="assets/icons/x.svg" alt="" />
+            </a>
+          </div>
+          <div class="p-1 rounded-full bg-white">
+            <a
+              href="https://www.tiktok.com/@flexyjairus?_r=1&_d=ejkh9kbb92ak43&sec_uid=MS4wLjABAAAAWpNK4VKjv4_5VuYoQKLJBNQQ6Y1rIFK0MuBlaP0ntDOYcct_bS_q0s91qucS8T91&share_author_id=7042980325241455622&sharer_language=en&source=h5_m&u_code=dm8i9j8c005d0l&ug_btm=b8727,b0&social_share_type=4&utm_source=copy&sec_user_id=MS4wLjABAAAAWpNK4VKjv4_5VuYoQKLJBNQQ6Y1rIFK0MuBlaP0ntDOYcct_bS_q0s91qucS8T91&tt_from=copy&utm_medium=ios&utm_campaign=client_share&enable_checksum=1&user_id=7042980325241455622&share_link_id=2351102A-CCFF-47DF-870F-62181B12848B&share_app_id=1233">
+              <img class="w-8 h-8" src="assets/icons/tiktok.svg" alt="" />
+            </a>
+          </div>
+          <div class="p-1 rounded-full bg-white">
+            <a href="https://www.instagram.com/flexyjairus?igsh=Z21vN3l5eGVyZGRt&utm_source=qr">
+              <img class="w-8 h-8" src="assets/icons/instagram.svg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <nav class="hidden md:flex flex-col gap-2" aria-label="foooter">
+          <a href="#hero" class="hover:opacity-90">Home</a>
+          <a href="#about" class="hover:opacity-90">About</a>
+          <a href="#links" class="hover:opacity-90">Link</a>
+          <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
+          <a href="#bio" class="hover:opacity-90">Bio</a>
+        </nav>
+
+        <div class="flex flex-col">
+          <div class="p-1 w-10 h-10 rounded-full bg-white mb-5">
+            <a href="tel:+2348102784460">
+              <img class="w-full h-full" src="assets/icons/phone-solid.svg" alt="" />
+            </a>
+          </div>
+          <div class="p-1 w-10 h-10 rounded-full bg-white">
+            <a href="https://wa.me/2348102784460" target="_blank">
+              <img class="w-full h-full" src="assets/icons/whatsapp.svg" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col sm:gap-2">
+          <p class="text-right">CopyRight &copy; <span id="year">2025</span></p>
+          <p class="text-right">All Rights Reserved</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+
+</html>
