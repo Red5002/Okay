@@ -636,6 +636,14 @@ video {
   margin-top: 1rem;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -772,6 +780,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
