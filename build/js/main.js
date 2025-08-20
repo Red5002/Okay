@@ -21,6 +21,9 @@ const initApp = () => {
 
     const url = `https://wa.me/2348102784460?text=Hello, my name is ${name}, ${message}`
     window.open(url,'_blank')
+    
+   document.getElementById('name').value = '' 
+   document.getElementById('message').value = ''
   }
 
 document.addEventListener("DOMContentLoaded", initApp);
