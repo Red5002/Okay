@@ -1,6 +1,7 @@
 const initApp = () => {
   const hamburgerBtn = document.getElementById("hamburger-button");
   const mobileMenu = document.getElementById("mobile-menu");
+  const sendBtn = document.getElementById('submit')
 
   const toggleMenu = () => {
     mobileMenu.classList.toggle("hidden");
@@ -11,10 +12,7 @@ const initApp = () => {
   hamburgerBtn.addEventListener("click", toggleMenu);
   mobileMenu.addEventListener("click", toggleMenu);
 
- 
-};
-
- const handleSubmit = (e) => {
+   const handleSubmit = (e) => {
     e.preventDefault()
     const name = document.getElementById('name').value
     const message = document.getElementById('message').value
@@ -25,5 +23,11 @@ const initApp = () => {
    document.getElementById('name').value = '' 
    document.getElementById('message').value = ''
   }
+
+   sendBtn.addEventListener("click", handleSubmit);
+ 
+};
+
+
 
 document.addEventListener("DOMContentLoaded", initApp);
