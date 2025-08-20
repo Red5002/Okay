@@ -10,6 +10,17 @@ const initApp = () => {
 
   hamburgerBtn.addEventListener("click", toggleMenu);
   mobileMenu.addEventListener("click", toggleMenu);
+
+ 
 };
+
+ const handleSubmit = (e) => {
+    e.preventDefault()
+    const name = document.getElementById('name').value
+    const message = document.getElementById('message').value
+
+    const url = `https://wa.me/2348102784460?text=Hello, my name is ${name}, ${message}`
+    window.open(url,'_blank')
+  }
 
 document.addEventListener("DOMContentLoaded", initApp);

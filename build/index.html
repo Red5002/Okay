@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="sm:scroll-smooth">
+<html lang="en" class="sm:scroll-smooth focus:outline-none">
 
   <head>
     <meta charset="UTF-8" />
@@ -25,6 +25,7 @@
             <a href="#about" class="hover:opacity-90">About</a>
             <a href="#links" class="hover:opacity-90">Links</a>
             <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
+            <a href="#contactUs" class="hover:opacity-90">Contact Us</a>
             <a href="#bio" class="hover:opacity-90">Bio</a>
             <a href="#footer" class="hover:opacity-90">legal</a>
           </nav>
@@ -37,6 +38,7 @@
           <a href="#about" class="w-full text-center py-4 hover:opacity-40">About</a>
           <a href="#links" class="w-full text-center py-4 hover:opacity-40">Links</a>
           <a href="#testimonials" class="w-full text-center py-4 hover:opacity-40">Testimonials</a>
+          <a href="#contactUs" class="hover:opacity-90">Contact Us</a>
           <a href="#bio" class="w-full text-center py-4 hover:opacity-40">Bio</a>
           <a href="#footer" class="w-full text-center py-4 hover:opacity-40">Legal</a>
         </nav>
@@ -249,6 +251,27 @@
           </figcaption>
         </figure>
 
+
+      </section>
+      <hr class="mx-auto bg-black dark:bg-white" />
+      <section id="contactUs" class="p-6 px-4 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height medscreen:section-min-height xtramedscreen:section-min-height flex justify-center items-center lg:grid lg:grid-cols-2 ">
+
+     
+      <div class="hidden lg:block" >
+       <h3 class="text-4xl font-bold sm:text-5xl text-slate-900 mb-3 dark:text-white">Got a project in mind?</h3>
+       <p class="text-[1rem] text-gray-400 w-[500px] ">Whether you're looking to collaborate , sponsor, or just vibe with the music - we're all ears. Reach out to us and let's make something amazing together!</p>
+      </div>
+        <div class="w-full flex flex-col  gap-2 lg:px-10">
+          <div class="lg:hidden">
+            <h3 class="text-3xl font-bold text-center mb-3 sm:text-5xl text-slate-900 dark:text-white">Got a project in mind?</h3>
+            <p class=" text-gray-400 mb-3 ">Collabs, sponsorships, or messages - hit us up below!</p>
+          </div>
+         <form onsubmit="handleSubmit(event)">
+          <input type="text" id="name" placeholder="Name.." class="border-black p-3 text-xl  rounded-lg text-black w-full mb-2">
+          <textarea name="" id="message" placeholder="Your message here....." class="border-black p-3 text-xl  rounded-lg text-black w-full h-52 mb-2"></textarea>
+         <button type="submit" class="bg-white font-bold text-2xl text-gray-900 py-4 w-full rounded-lg hover:bg-gray-300 duration-75" >Send</button>
+         </form>
+       </div>
 
       </section>
       <hr class="mx-auto bg-black dark:bg-white" />
